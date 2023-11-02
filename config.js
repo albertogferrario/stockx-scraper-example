@@ -8,7 +8,7 @@ const stockx = {
 };
 
 const proxy = {
-    enabled: process.env.PROXY_ENABLED,
+    enabled: process.env.PROXY_ENABLED || false,
     host: process.env.PROXY_HOST,
     port: process.env.PROXY_PORT,
     username: process.env.PROXY_USERNAME,

@@ -1,0 +1,15 @@
+# Logs
+yarn-debug.log*
+yarn-error.log*
+
+# Environment Configuration
+.env
+
+# Dependency directory
+node_modules
+
+# Ignore Apple macOS Desktop Services Store
+.DS_Store
+
+# JetBrains configuration directory
+.idea

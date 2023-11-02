@@ -1,0 +1,8 @@
+.docker
+!.docker/build/app/entrypoint.sh
+
+.github
+
+node_modules
+
+.env

@@ -9,4 +9,6 @@ COPY . .
 RUN \
     yarn --production
 
-ENTRYPOINT [ "/usr/src/app/.docker/build/app/entrypoint.sh" ]
+COPY .docker/build/app/entrypoint.sh .
+
+ENTRYPOINT [ "/usr/src/app/entrypoint.sh" ]
